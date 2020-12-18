@@ -1,0 +1,65 @@
+<template>
+    <div class="c-container">
+        <lightning-layout multiple-rows="true">
+            <lightning-layout-item padding="around-small" size="2">
+                <div>
+                    <lightning-button onclick={clickEvent7} label="7" class="slds-m-left_x-small" title="one"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent4} label="4" class="slds-m-left_x-small" title="four"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent1} label="1" class="slds-m-left_x-small" title="one"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent0} label="0" class="slds-m-left_x-small" title="zero"></lightning-button>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="2">
+                <div>
+                    <lightning-button onclick={clickEvent8} label="8" class="slds-m-left_x-small" title="eight"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent5} label="5" class="slds-m-left_x-small" title="five"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent2} label="2" class="slds-m-left_x-small" title="two"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEventAdd} icon-name="utility:add" class="slds-m-left_x-small" title="Add"></lightning-button>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="2">
+                <div>
+                    <lightning-button onclick={clickEvent9} label="9" class="slds-m-left_x-small" title="nine"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent6} label="6" class="slds-m-left_x-small" title="six"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEvent3} label="3" class="slds-m-left_x-small" title="three"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEventMinus} icon-name="utility:dash" class="slds-m-left_x-small" title="minus"></lightning-button>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="2">
+                <div>
+                    <lightning-button onclick={clickEventRestart} icon-name="utility:left" class="slds-m-left_x-small" title="restart"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEventPrint} icon-name="utility:assignment" class="slds-m-left_x-small" title="result"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEventMultiple} title="multiplication" icon-name="utility:close" class="slds-m-left_x-small"></lightning-button>
+                </div>
+                <div>
+                    <lightning-button onclick={clickEventDivide} icon-name="utility:contract_alt" title="division" class="slds-m-left_x-small"></lightning-button>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="8">
+                <lightning-input type="text" label="Resultados" id="resultados" disabled value="0"></lightning-input>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>
